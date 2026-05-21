@@ -7,6 +7,7 @@
     <title>Parque Recreio Paraiso</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="link430.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -26,52 +27,101 @@
 
     <main>
         <div class="foto">
-            <div class="fundo"></div>
-            <div class="text"><h1>Conecte-se com o parque.</h1>
-                <p>Um refúgio de beleza, tranquilidade e aventuras para toda a família!</p>
-            <button class="button2"><i class="fa-solid fa-landmark"></i> Saiba Mais</button>
+        <div class="slideshow-container">
+            <div class="mySlides1">
+                <img src="entrada.jpeg">
+            </div>
+
+            <div class="mySlides1">
+                <img src="entrada2.jpeg">
+            </div>
+
+            <div class="mySlides1">
+                <img src="entrada3.jpeg">
+            </div>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
         </div>
+        <div class="text">
+            <h1>Conecte-se com <br> o parque!</h1>
+            <br>
+            <p>
+                Um refúgio de beleza, tranquilidade <br>
+                e aventuras para toda a família!
+            </p>
+            <br><br>
+            <button class="button2">
+                <i class="fa-solid fa-paper-plane"></i>
+                Saiba Mais
+            </button>
         </div>
-        <div class="galeria">
-            <h2>Galeria do Parque</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="https://diariodorio.com/wp-content/uploads/2021/07/852_skate4.jpeg">
 
-                    <div class="cardfooter">
-                        <h4>Pista de Skate</h4>
+    </div>
+<div class="galeria">
+    <span><i class="fa-solid fa-leaf"></i> Galeria do Parque</span>
+    <h2>Explore cada canto desse paraíso!</h2><br><br>
+    <div class="cards">
+        <div class="card">
+            <img src="skate.jpeg">
 
-                        <a href="#">
-                            Ver Imagem
-                        </a>
-                    </div>
-                </div>
+            <div class="cardfooter">
+                <h4>Pista de Skate</h4>
 
-                <div class="card">
-                    <img src="https://www.badalo.com.br/wp-content/uploads/2023/04/Comunidade-de-Batateiras-no-Crato-recebe-brinquedopraca-com-academia-ao-ar-livre.jpeg">
-
-                    <div class="cardfooter">
-                        <h4>Parque Infantil</h4>
-
-                        <a href="#">
-                            Ver Imagem
-                        </a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRacvtJw4_HO9h4B92obeGdPOe3XgYNFj4EQ&s">
-
-                    <div class="cardfooter">
-                        <h4>Pista de Vaquejada</h4>
-
-                        <a href="#">
-                            Ver Imagem
-                        </a>
-                    </div>
-                </div>
+                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
             </div>
         </div>
+
+        <div class="card">
+            <img src="Parque infantil.jpeg">
+
+            <div class="cardfooter">
+                <h4>Parque Infantil</h4>
+
+                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="pista de vaquejada.jpeg">
+
+            <div class="cardfooter">
+                <h4>Pista de Vaquejada</h4>
+
+                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Areninha.jpeg">
+
+            <div class="cardfooter">
+                <h4>Areninha Society</h4>
+
+                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="parque de eventos.jpeg">
+
+            <div class="cardfooter">
+                <h4>Parque de Eventos</h4>
+
+                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="casa dos guardas.jpeg">
+
+            <div class="cardfooter">
+                <h4>Base Comunitária</h4>
+
+                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+        </div>
+
+    </div>
+</div>
     </main>
 
     <script src="script.js"></script>
