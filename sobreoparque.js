@@ -16,17 +16,3 @@ function changeSlide(n){
     showSlides("mySlides1");
 }
 showSlides("mySlides1");
-
-
-const themeButton = document.getElementById("themeButton");
-themeButton.onclick = () => {
-
-    document.body.classList.toggle("dark-theme");
-
-    if(document.body.classList.contains("dark-theme")){
-        themeButton.innerHTML = '<i class="fa-solid fa-sun"></i> Tema Claro';
-    }else{
-        themeButton.innerHTML = '<i class="fa-solid fa-moon"></i> Tema Escuro';
-    }
-
-}

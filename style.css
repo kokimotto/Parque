@@ -14,25 +14,54 @@ header{
     background-color: whitesmoke;
     color: black;
     padding: 5px;
-    gap: 15px;
+    gap: 30px;
 }
 header a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
 }
 header a:hover{
-    text-decoration: underline green;
+    text-decoration: underline green 2px;
 }
 .imghe{
     padding-left: 30px;
 }
 .opp{
     display: flex;
-    gap: 25px;
+    gap: 30px;
     align-items: center;
     text-align: center;
     padding-right: 30px;
+}
+#themeButton,
+.button1{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#themeButton{
+    background: white;
+    color: #003366;
+}
+.button1{
+    background: #2c7a3f;
+    color: white;
+}
+.dark-theme{
+    background: #121212;
+    color: white;
+}
+.dark-theme header{
+    background: #1e1e1e;
+}
+.dark-theme .opp a{
+    color: white;
+}
+.dark-theme #themeButton{
+    background: #333;
+    color: white;
 }
 .button1{
     padding: 20px 35px 20px 35px;
@@ -87,6 +116,10 @@ header a:hover{
     border-color: rgba(255, 255, 255, 0);
     cursor: pointer;
 }
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
 .button2:hover{
     background-color: #1b5e20;
     cursor: pointer;
@@ -97,11 +130,9 @@ header a:hover{
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
-
     color: white;
     font-size: 40px;
     font-weight: bold;
-
     padding: 15px;
     z-index: 3;
 }
@@ -150,4 +181,10 @@ header a:hover{
 }
 span{
     color: green;
+}
+.dark-theme .card{
+    background: #1e1e1e;
+}
+.dark-theme .cardfooter h4{
+    color: white;
 }

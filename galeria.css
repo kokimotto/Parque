@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    gap: 15px;
+}
+.main{
+    background-color: whitesmoke;
+}
+.foto{
+    width: 70%;
+    margin: auto;
+}
+.foto h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.slideshow-container{
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+.mySlides1{
+    display: none;
+}
+.mySlides1 img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}

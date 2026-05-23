@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    gap: 15px;
+}
+.imghe{
+    padding-left: 30px;
+}
+.opp{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    padding-right: 30px;
+}
