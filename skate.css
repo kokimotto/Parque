@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Times New Roman", Times, serif;
+}
 header{
     display: flex;
     justify-content: center;
@@ -14,14 +17,13 @@ header{
 }
 .foto{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 40px;
     padding: 40px;
-    flex-wrap: wrap;
 }
 .slideshow-container{
-    top: 20px;
+    position: relative;
     width: 500px;
     height: 350px;
 }
@@ -38,15 +40,21 @@ header{
 }
 .text{
     max-width: 700px;
-    min-width: 300px;
 }
 .text h2{
     font-size: 35px;
-}
-.text p{
-    font-size: 18px;
     margin-bottom: 20px;
+}
+.text p,
+.text2 p{
+    font-size: 19px;
+    margin-bottom: 10px;
     text-align: justify;
+}
+.text2{
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 40px 40px;
 }
 .prev, .next{
     cursor: pointer;

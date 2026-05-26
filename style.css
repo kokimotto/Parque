@@ -5,6 +5,7 @@
 }
 body{
     background-color: whitesmoke;
+    font-family: "Times New Roman", Times, serif;
 }
 header{
     display: flex;
@@ -23,6 +24,7 @@ header a{
 }
 header a:hover{
     text-decoration: underline green 2px;
+    font-size: 21px;
 }
 .imghe{
     padding-left: 30px;
@@ -41,13 +43,12 @@ header a:hover{
     border-radius: 10px;
     cursor: pointer;
 }
+#themeButton:hover{
+    padding: 15px 20px;
+}
 #themeButton{
     background: white;
     color: #003366;
-}
-.button1{
-    background: #2c7a3f;
-    color: white;
 }
 .dark-theme{
     background: #121212;
@@ -74,6 +75,7 @@ header a:hover{
 .button1:hover{
     background-color: #1b5e20;
     cursor: pointer;
+    padding: 25px 40px 25px 40px;
 }
 .foto{
     width: 100%;
@@ -123,6 +125,7 @@ header a:hover{
 .button2:hover{
     background-color: #1b5e20;
     cursor: pointer;
+    padding: 20px 40px 20px 40px;
 }
 .next{
     cursor: pointer;
@@ -178,6 +181,8 @@ header a:hover{
 }
 .cardfooter a:hover{
     background: #1b5e20;
+    width: 40px;
+    height: 40px;
 }
 span{
     color: green;
