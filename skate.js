@@ -6,13 +6,18 @@ function showSlides(slideClass){
     if(slideIndices[slideClass] > slides.length){
         slideIndices[slideClass] = 1;
     }
+    if(slideIndices[slideClass] < 1){
+        slideIndices[slideClass] = slides.length;
+    }
     for(let i = 0; i < slides.length; i++){
         slides[i].style.display = "none";
     }
     slides[slideIndices[slideClass] - 1].style.display = "block";
 }
 function changeSlide(n){
-    slideIndices.mySlides1 += n;
+
+    slideIndices["mySlides1"] += n;
+
     showSlides("mySlides1");
 }
 showSlides("mySlides1");

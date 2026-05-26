@@ -21,7 +21,7 @@ header{
     flex-wrap: wrap;
 }
 .slideshow-container{
-    position: relative;
+    top: 20px;
     width: 500px;
     height: 350px;
 }
@@ -37,13 +37,16 @@ header{
     border-radius: 15px;
 }
 .text{
-    width: 500px;
+    max-width: 700px;
+    min-width: 300px;
 }
 .text h2{
     font-size: 35px;
 }
 .text p{
     font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 .prev, .next{
     cursor: pointer;
