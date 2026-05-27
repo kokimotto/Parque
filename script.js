@@ -30,3 +30,20 @@ themeButton.onclick = () => {
     }
 
 }
+
+async function carregarClima() {
+    const cidade = "Caririaçu";
+    const url = `https://wttr.in/${cidade}?format=j1&lang=pt`;
+    try {
+        const resposta = await fetch(url);
+        const dados = await resposta.json();
+        const temperatura = dados.current_condition[0].temp_C;
+        const clima = dados.current_condition[0].lang_pt[0].value;
+        document.getElementById("weatherText").innerHTML =
+            `${temperatura}°C | ${clima}`;
+    } catch (erro) {
+        document.getElementById("weatherText").innerHTML =
+            "Clima indisponível";
+    }
+}
+carregarClima();

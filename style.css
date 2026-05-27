@@ -36,6 +36,38 @@ header a:hover{
     text-align: center;
     padding-right: 30px;
 }
+#weatherButton{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+}
+#weatherButton:hover{
+    background: white;
+    padding: 15px 20px;
+}
+#weatherButton i{
+    color: orange;
+    font-size: 18px;
+}
+.dark-theme #weatherButton{
+    background: #2c2c2c;
+    color: white;
+}
+.dark-theme #weatherButton:hover{
+    background: #3a3a3a;
+}
+.dark-theme #weatherButton i{
+    color: white;
+}
+.dark-theme #weatherText{
+    color: white;
+}
 #themeButton,
 .button1{
     padding: 10px 15px;
