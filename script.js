@@ -47,3 +47,18 @@ async function carregarClima() {
     }
 }
 carregarClima();
+
+function avaliar(){
+    let nome = document.getElementById("nome").value;
+    let nota = document.getElementById("nota").value;
+    let comentario = document.getElementById("comentario").value;
+    document.getElementById("avaliacoes").innerHTML += `
+        <div class="card-avaliacao">
+            <h3>${nome}</h3>
+            <p>${nota}</p>
+            <p>${comentario}</p>
+        </div>
+    `;
+document.getElementById("nome").value = "";
+document.getElementById("comentario").value = "";
+}

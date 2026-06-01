@@ -225,3 +225,44 @@ span{
 .dark-theme .cardfooter h4{
     color: white;
 }
+footer{
+    background-color: whitesmoke;
+}
+.container-avaliacoes{
+    display:flex;
+    gap:30px;
+    width:90%;
+    margin:auto;
+    align-items:flex-start;
+    padding: 10px;
+}
+.avaliacao{
+    width:400px;
+    margin:auto;
+}
+.campo{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+textarea.campo{
+    height:100px;
+}
+.btn-avaliar{
+    width:100%;
+    padding:10px;
+    cursor:pointer;
+}
+.lista-avaliacoes{
+    width:400px;
+    margin:20px auto;
+}
+.card-avaliacao{
+    border:1px solid #ccc;
+    border-radius:10px;
+    padding:15px;
+    margin-top:15px;
+}
+.dark-theme footer{
+    background: #121212;
+}
